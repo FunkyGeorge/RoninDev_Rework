@@ -1,0 +1,158 @@
+@font-face {
+	font-family: Trivial;
+	src: url(../fonts/trivial-rescue/Trivial-Regular.otf);
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(../fonts/Lato2OFL/Lato-Regular.ttf);
+}
+
+html {
+	background-color: white;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font-family: Lato;
+}
+
+nav {
+	height: 10%;
+	margin-bottom: 2em;
+}
+
+.black-text {
+	color: black;
+}
+
+.clear-background {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.non-transparent{
+	opacity: 1.0;
+}
+
+#Intro {
+	margin: 3em;
+	background-color: rgba(0,0,0, 0.4);
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#Copy {
+	position: relative;
+	top: -15px;
+	left: 15px;
+}
+
+#Logo {
+	width: 1em;
+}
+
+#Logo-mobile{
+	width: 2em;
+	position: relative;
+	top: -1em;
+}
+
+#Logo-box {
+	padding: 3em;
+	max-height: 5em;
+}
+
+#Footer-icons li {
+	display: inline;
+}
+
+.icon {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.college {
+	width: 5em;
+}
+
+#modestojc-box{
+	width: 9em;
+}
+
+.college-box {
+	display: block;
+	min-height: 4.5em;
+}
+
+.spacer {
+	display: block;
+	height: 2em;
+}
+
+.menu-item {
+	text-decoration: underline;
+	color: black;
+}
+
+.navbar-item {
+	display: inline-block;
+	padding: 10px 5px 0px 5px;
+}
+
+.tech-column {
+	text-align: center;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+.tech-logo {
+	vertical-align: middle;
+	max-width: 9em;
+}
+
+.tech-logo2 {
+	vertical-align: middle;
+	max-width: 5em;
+}
+
+.Trivial{
+	font-family: Trivial;
+}
+
+.portfolio-card{
+	height: auto;
+}
+
+.padded-image{
+	padding: 20px;
+}
+
+.image-or-paragraph-div{
+	min-height: 15em;
+	vertical-align: middle;
+}
+
+.contact-paragraph{
+	font-size: 20px;
+	display: inline-block;
+}
+
+.contact-icon-and-text{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.tech-card{
+	padding: 0em 1em 0em 1em;
+}
+
+#ronindev_portfolio .card-reveal p, a{
+	font-size: 18px;
+}
+#ronindev_portfolio .card-reveal h5{
+	font-size: 30px;
+}
+
+#navbar-mobile  {
+	padding: 3em 0em;
+	display: none;
+}
