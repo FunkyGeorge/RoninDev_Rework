@@ -36,28 +36,7 @@
   <script src="js/materialize.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- <script src="js/main.js"></script> -->
-  <script>
-  $(document).ready(function(){
-    var disturbed = 0;
-    $('.carousel').carousel();
-
-    $('.carousel').click(function(){
-      disturbed = 4;
-    });
-
-    setInterval(function(){
-      if (disturbed > 0){
-        disturbed--;
-      } else {
-        $('.carousel').carousel('next');
-      }
-    }, 2000);
-
-
-
-  });
-  </script>
+  <script src="js/main.js"></script>
 
 </head>
 <body>
@@ -66,127 +45,127 @@
   <div class="navbar-fixed">
     <nav class="nav-extended black">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img id="Logo" class="responsive-img" src="img/logos/white_logo_transparent_background.png" alt="oops!"><span id="Copy" class="Lato">Web and Mobile App Dev Team</span></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" class="brand-logo"><img id="Logo" class="responsive-img" src="img/logos/white_logo_transparent_background.png" alt="oops!"><span id="Copy">Web and Mobile App Dev Team</span></a>
+        <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="">The Team</a></li>
-          <li><a href="">Clients</a></li>
-          <li><a href="">Our Method</a></li>
-          <li><a href="">Tech</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="#ronindev_index">The Team</a></li>
+          <li><a href="#ronindev_portfolio">Clients</a></li>
+          <li><a href="#ronindev_method">Our Method</a></li>
+          <li><a href="#ronindev_stacks">Tech</a></li>
+          <li><a href="#ronindev_contact">Contact Us</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="">The Team</a></li>
-          <li><a href="">Clients</a></li>
-          <li><a href="">Our Method</a></li>
-          <li><a href="">Tech</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+        <!-- <ul class="side-nav" id="mobile-demo">
+        <li><a href="#ronindev_index">The Team</a></li>
+        <li><a href="#ronindev_portfolio">Clients</a></li>
+        <li><a href="#ronindev_method">Our Method</a></li>
+        <li><a href="#ronindev_stacks">Tech</a></li>
+        <li><a href="#ronindev_contact">Contact Us</a></li>
+      </ul> -->
+    </div>
+  </nav>
+</div>
 
-  <div id="Intro" class="z-depth-2">
-    <h2 class="center-align">We'll Build It</h2>
-    <p class="flow-text">
-      We like ideas, but we like building those ideas even more. With Ronin Dev, though, you’ll get more than just that. We’re not just a Silicon Valley based, full stack development team for hire. We’ll build your vision, but we’ll guide you through each step of the product development cycle, providing feedback and recommendations where necessary, to ensure that the delivered product is highly functional, expertly styled, and produced in a time and cost efficient manner.
+<div id="Intro" class="z-depth-2">
+  <h2 class="center-align">We'll Build It</h2>
+  <p class="flow-text">
+    We like ideas, but we like building those ideas even more. With Ronin Dev, though, you’ll get more than just that. We’re not just a Silicon Valley based, full stack development team for hire. We’ll build your vision, but we’ll guide you through each step of the product development cycle, providing feedback and recommendations where necessary, to ensure that the delivered product is highly functional, expertly styled, and produced in a time and cost efficient manner.
+  </p>
+</div>
+
+
+
+
+
+<div class="container">
+
+  <div id="ronindev_index" class="col s12 section scrollspy">
+    <h2 class="center-align">This is Us</h2>
+    <p class="center-align flow-text">
+      For entrepreneurs and innovators who need to turn their ideas into fully functional software,
+      Ronin Dev is a full stack development team ready to build your vision. Unlike other developers, Ronin Dev offers a partnership
+      that is tirelessly dedicated to delivering a reliable product at a reasonable price
     </p>
   </div>
+</div>
 
+<div class="row">
+  <div class="col s12 m12 l6">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content grey lighten-4">
+          <h5>Sonny Tosco - Product Development</h5>
+          <p>
+            West Point and the Army shaped him into what he is today – a driven, hard working leader who delivers on his word. He’s a former founder, product development expert, and UI/UX designer. Compelled to help others, he started Ronin Dev as a way to guide other entrepreneurs through the process of producing an MVP. When he’s not wire-framing apps to trap music, he spends quality time with his supportive wife and two beautiful children.
+          </p>
+        </div>
+      </div>
+      <div class="card-image">
 
-
-
-
-  <div class="container">
-    <div id="ronindev_index" class="col s12 section scrollspy">
-      <h2 class="center-align">This is Us</h2>
-      <p class="center-align flow-text">
-        For entrepreneurs and innovators who need to turn their ideas into fully functional software,
-        Ronin Dev is a full stack development team ready to build your vision. Unlike other developers, Ronin Dev offers a partnership
-        that is tirelessly dedicated to delivering a reliable product at a reasonable price
-      </p>
+        <img src="img/sonny_resized.png">
+      </div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col s12 m12 l6">
-      <div class="card horizontal">
-        <div class="card-stacked">
-          <div class="card-content grey lighten-4">
-            <h5>Sonny Tosco - Product Development</h5>
-            <p>
-              West Point and the Army shaped him into what he is today – a driven, hard working leader who delivers on his word. He’s a former founder, product development expert, and UI/UX designer. Compelled to help others, he started Ronin Dev as a way to guide other entrepreneurs through the process of producing an MVP. When he’s not wire-framing apps to trap music, he spends quality time with his supportive wife and two beautiful children.
-            </p>
-          </div>
-        </div>
-        <div class="card-image">
+  <div class="col s12 m12 l6">
+    <div class="card horizontal">
+      <div class="card-image">
 
-          <img src="img/sonny_resized.png">
-        </div>
+        <img src="img/phil_resized.png">
       </div>
-    </div>
-
-    <div class="col s12 m12 l6">
-      <div class="card horizontal">
-        <div class="card-image">
-
-          <img src="img/phil_resized.png">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content grey lighten-4">
-            <h5>Phil Vo - Back End Engineer</h5>
-            <p>
-              Phil was slated to finish his Master of Computer Science from UC Davis when Sonny called him with the opportunity to become the team’s technical lead. Ask him why he did it, he’ll tell you simply, “I wanted to build things.” An efficient operator, he’ll put together a fast back-end to deliver your users the information they need. If Sonny is Captain Kirk, Phil is undoubtedly the Spock in this operation.
-            </p>
-          </div>
+      <div class="card-stacked">
+        <div class="card-content grey lighten-4">
+          <h5>Phil Vo - Back End Engineer</h5>
+          <p>
+            Phil was slated to finish his Master of Computer Science from UC Davis when Sonny called him with the opportunity to become the team’s technical lead. Ask him why he did it, he’ll tell you simply, “I wanted to build things.” An efficient operator, he’ll put together a fast back-end to deliver your users the information they need. If Sonny is Captain Kirk, Phil is undoubtedly the Spock in this operation.
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col s12 m12 l6">
-      <div class="card horizontal">
-        <div class="card-stacked">
-          <div class="card-content grey lighten-4">
-            <h5>Elliot Young - Front End Engineer</h5>
-            <p>
-              Elliot spent countless hours serving cafeteria food at UC Davis to pay his way through school. His determination is what got Elliot through with a degree in Chemistry(?) as well as a pivot soon after into full stack development. With Ronin Dev, he handles the general aesthetics of the web and mobile apps, ensuring that the user experience is seamless and consistent. Stop by the shop and he’s the one always wearing a crisp V-neck, sitting by a dusty 20 lb dumbbell he supposedly uses to work on his fitness while coding.
-            </p>
-          </div>
-        </div>
-        <div class="card-image">
-
-          <img src="img/elliot_resized.png">
+</div>
+<div class="row">
+  <div class="col s12 m12 l6">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content grey lighten-4">
+          <h5>Elliot Young - Front End Engineer</h5>
+          <p>
+            Elliot spent countless hours serving cafeteria food at UC Davis to pay his way through school. His determination is what got Elliot through with a degree in Chemistry(?) as well as a pivot soon after into full stack development. With Ronin Dev, he handles the general aesthetics of the web and mobile apps, ensuring that the user experience is seamless and consistent. Stop by the shop and he’s the one always wearing a crisp V-neck, sitting by a dusty 20 lb dumbbell he supposedly uses to work on his fitness while coding.
+          </p>
         </div>
       </div>
+      <div class="card-image">
+
+        <img src="img/elliot_resized.png">
+      </div>
     </div>
+  </div>
 
-    <div class="col s12 m12 l6">
-      <div class="card horizontal">
-        <div class="card-image">
+  <div class="col s12 m12 l6">
+    <div class="card horizontal">
+      <div class="card-image">
 
-          <img src="img/george_resized.png">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content grey lighten-4">
-            <h5>George Miranda - Front End Engineer</h5>
-            <p>
-              You’ll find few people who work as hard as George. He grew up in rural Central Valley, but took a leap to the Bay Area to work in Tech where he started off doing work for Quanta before making the transition to Ronin Dev. He stays up to date with the latest front-end technologies, integrating them to provide the best and most modern user experience possible. Loyal is another word to describe George - just ask him about the Niners.
-            </p>
-          </div>
+        <img src="img/george_resized.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content grey lighten-4">
+          <h5>George Miranda - Front End Engineer</h5>
+          <p>
+            You’ll find few people who work as hard as George. He grew up in rural Central Valley, but took a leap to the Bay Area to work in Tech where he started off doing work for Quanta before making the transition to Ronin Dev. He stays up to date with the latest front-end technologies, integrating them to provide the best and most modern user experience possible. Loyal is another word to describe George - just ask him about the Niners.
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
+</div>
 
-    <!-- Portfolio partial -->
-    <div id="ronindev_portfolio" class="col s12 section scrollspy">
-      <!-- Portfolio Row -->
-      <h2 class="Lato center-align">What We've Done</h2>
-      <h5 class="Lato center-align">Here are some applications we've built</h5>
+<div class="container">
 
-      <div class="row">
+  <div id="ronindev_portfolio" class="col s12 section scrollspy">
+    <h2 class="Lato center-align">What We've Done</h2>
+    <h5 class="Lato center-align">Here are some applications we've built</h5>
+
+    <div class="row">
       <div class="col s12 m6 small">
         <div class="card-panel blue-grey lighten-3">
           <img class="padded-image" src="img/limelightlogo.png" width="auto" height="150px">
@@ -204,7 +183,7 @@
         </div>
       </div>
     </div>
-      <div class="row">
+    <div class="row">
       <div class="col s12 m6 small">
         <div class="card-panel blue-grey lighten-3">
           <img class="padded-image" src="img/froxxilogo.png" width="auto" height="150px">
@@ -214,49 +193,41 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
 
 
 
 
 
-<!-- Contact Partial -->
-<div id="ronindev_contact" class="col s12 section scrollspy">
-
-
-
-
-  <div class="row">
-    <h2 class="Lato">How we do it</h2>
-    <p class="flow-text"> Lean Startup and Agile development principles allow us to deliver your project as quickly and cost effectively as possible. Here’s our process.</p>
-    <div class="col s4">
-      <img class="center-align" src="img/blueprint.png" alt="" width="50%">
-      <div class="col s12 valign-wrapper">
-        <p class="contact-paragraph valign">Building an app is like building a house, it all starts with a blueprint. We'll discuss your vision and develop a wireframe.  That way we can both see what will be built before we start the fun part.</p>
+  <div id="ronindev_method" class="col s12 section">
+    <div class="row">
+      <h2 class="Lato">How we do it</h2>
+      <p class="flow-text"> Lean Startup and Agile development principles allow us to deliver your project as quickly and cost effectively as possible. Here’s our process.</p>
+      <div class="col s4">
+        <img class="center-align" src="img/blueprint.png" alt="" width="50%">
+        <div class="col s12 valign-wrapper">
+          <p class="contact-paragraph valign">Building an app is like building a house, it all starts with a blueprint. We'll discuss your vision and develop a wireframe.  That way we can both see what will be built before we start the fun part.</p>
+        </div>
       </div>
-    </div>
-    <div class="col s4">
-      <img class="center-align" src="img/codeicon.png" alt="" width="50%">
-      <div class="col s12 valign-wrapper">
-        <p class="contact-paragraph valign">After the wireframe is approved we start building.  We will meet once a week to discuss what has been completed and what will be completed in the next week that way you are informed and have oversight throughout the process.</p>
+      <div class="col s4">
+        <img class="center-align" src="img/codeicon.png" alt="" width="50%">
+        <div class="col s12 valign-wrapper">
+          <p class="contact-paragraph valign">After the wireframe is approved we start building.  We will meet once a week to discuss what has been completed and what will be completed in the next week that way you are informed and have oversight throughout the process.</p>
+        </div>
       </div>
-    </div>
-    <div class="col s4">
-      <img class="center-align" src="img/rocket.ico" alt="" width="50%">
-      <div class="col s12 valign-wrapper">
-        <p class="contact-paragraph valign">Last, we will test your application before it is ready to ship!  Let's start wireframing by getting in touch with us <b><span id="contact-form-location">on your right</span>.</b></p>
+      <div class="col s4">
+        <img class="center-align" src="img/rocket.ico" alt="" width="50%">
+        <div class="col s12 valign-wrapper">
+          <p class="contact-paragraph valign">Last, we will test your application before it is ready to ship!  Let's start wireframing by getting in touch with us <b><span id="contact-form-location">on your right</span>.</b></p>
+        </div>
       </div>
+
     </div>
 
   </div>
-
 </div>
 
-<!-- Tech partial -->
-
-</div>
-
-<div id="ronindev_stacks" class="col s12 section scrollspy">
+<div id="ronindev_stacks" class="col s12 section">
 
 
   <div class="card grey">
@@ -307,39 +278,39 @@
 <div class="container">
 
 
-<div class="row">
-  <div class="col s12 m7">
-    <h2>Let's Talk</h2>
-    <p class="flow-text">Here’s where we start. Give us your name, email, and project description and we’ll get back to you within 24-48 hours. Talk to you soon!</p>
-  </div>
-  <div class="col s12 m5">
-    <div class="row">
-      <form class="col s12" id="contact">
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="name" type="text" class="validate">
-            <label for="name">Name</label>
+  <div class="row" id="ronindev_contact">
+    <div class="col s12 m7">
+      <h2>Let's Talk</h2>
+      <p class="flow-text">Here’s where we start. Give us your name, email, and project description and we’ll get back to you within 24-48 hours. Talk to you soon!</p>
+    </div>
+    <div class="col s12 m5">
+      <div class="row">
+        <form class="col s12" id="contact">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
-            <label for="email">Email</label>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <textarea id="project" class="validate materialize-textarea" length="250"></textarea>
-            <label for="project">Project Description</label>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="project" class="validate materialize-textarea" length="250"></textarea>
+              <label for="project">Project Description</label>
+            </div>
           </div>
-        </div>
-        <button class="btn waves-effect waves-light right" type="submit" name="action" action="#">Send
-          <i class="material-icons right">send</i>
-        </button>
-      </form>
+          <button class="btn waves-effect waves-light right" type="submit" name="action" action="#">Send
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 
 
 
@@ -348,7 +319,6 @@
 
 
 
-<!-- END OF CONTACT  -->
 </div>
 <!-- Footer -->
 <footer class="page-footer black">
