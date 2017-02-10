@@ -13,7 +13,7 @@ html {
 	margin: 0px;
 	padding: 0px;
 	font-family: Lato;
-	background-color: lightgrey;
+	background-color: white;
 }
 
 
@@ -180,3 +180,22 @@ nav {
 padding-top:40px;
 margin-top:-40px;
 }
+
+.parallax-container {
+	margin-top: -600px;
+	padding-top: 600px;
+	height: 800px;
+}
+
+
+
+/*Notes
+- what we've done
+	- make the boxes one size so users don't have to scroll
+	- make containers big enough so there isn't any scrolling
+- Footer-icons
+	- want to be able to make the social icons pop
+
+
+
+*/
