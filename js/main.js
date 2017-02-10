@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	var disturbed = 0;
 	$(".button-collapse").sideNav();
+	$('.parallax').parallax();
 	$('.carousel').carousel();
 
 	$('.carousel').click(function(){

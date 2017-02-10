@@ -9,11 +9,14 @@
 }
 
 html {
-	background-color: white;
 	color: black;
 	margin: 0px;
 	padding: 0px;
 	font-family: Lato;
+	background-color: lightgrey;
+}
+
+
 }
 
 nav {
@@ -21,12 +24,28 @@ nav {
 	margin-bottom: 2em;
 }
 
+.parallax-container {
+	height: 600px;
+}
+
+.red-text {
+	color: #FFEBEE;
+}
+
 .black-text {
 	color: black;
 }
 
 .clear-background {
-	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 5px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+}
+
+.red-background {
+	margin-top: 15px;
+	background-color: rgba(244, 67, 54, 0.5);
+	border-radius: 3px;
 }
 
 .non-transparent{
@@ -35,7 +54,7 @@ nav {
 
 #Intro {
 	margin: 3em;
-	background-color: rgba(0,0,0, 0.4);
+	background-color: rgba(0,0,0, 0.2);
 	padding: 10px;
 	border-radius: 3px;
 }
@@ -106,12 +125,12 @@ nav {
 
 .tech-logo {
 	vertical-align: middle;
-	max-width: 9em;
+	max-width: 18em;
 }
 
 .tech-logo2 {
 	vertical-align: middle;
-	max-width: 5em;
+	max-width: 10em;
 }
 
 .Trivial{
@@ -155,4 +174,9 @@ nav {
 #navbar-mobile  {
 	padding: 3em 0em;
 	display: none;
+}
+
+.scroll-adjust{
+padding-top:40px;
+margin-top:-40px;
 }
