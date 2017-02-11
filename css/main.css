@@ -84,9 +84,16 @@ nav {
 	display: inline;
 }
 
+.follow-adjust {
+	font-size: 24px;
+	position: relative;
+	bottom: 10px;
+}
+
 .icon {
-	width: 1.5em;
-	height: 1.5em;
+	width: 2em;
+	height: auto;
+	border: 4px solid black;
 }
 
 .college {
@@ -190,9 +197,7 @@ margin-top:-40px;
 
 
 /*Notes
-- what we've done
-	- make the boxes one size so users don't have to scroll
-	- make containers big enough so there isn't any scrolling
+
 - Footer-icons
 	- want to be able to make the social icons pop
 

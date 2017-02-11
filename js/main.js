@@ -59,4 +59,10 @@ $(document).ready(function(){
 		}
 	);
 
+	$('.social-icon').hover(function(){
+		$(this).children().css('border-bottom','4px solid white');
+	},function(){
+		$(this).children().css('border-bottom','4px solid black');
+	});
+
 });
