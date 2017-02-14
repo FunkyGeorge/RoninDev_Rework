@@ -9,11 +9,15 @@
 }
 
 html {
-	color: black;
+	color: white;
 	margin: 0px;
 	padding: 0px;
 	font-family: Lato;
-	background-color: white;
+	background: url(../img/Archive/third.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 
@@ -22,14 +26,6 @@ html {
 nav {
 	height: 10%;
 	margin-bottom: 2em;
-}
-
-.parallax-container {
-	height: 600px;
-}
-
-.red-text {
-	color: #FFEBEE;
 }
 
 .black-text {
@@ -188,19 +184,16 @@ padding-top:40px;
 margin-top:-40px;
 }
 
-.parallax-container {
-	margin-top: -600px;
-	padding-top: 600px;
-	height: 800px;
+.transparent {
+	background: transparent;
 }
 
+.email-form {
+	background-color: rgba(0,0,0, 0.2);
+	padding: 7px;
+	border-radius: 3px;
+}
 
-
-/*Notes
-
-- Footer-icons
-	- want to be able to make the social icons pop
-
-
-
-*/
+.white-power-ranger {
+	border-bottom: 1px solid white !important;
+}
