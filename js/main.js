@@ -49,6 +49,8 @@ $(document).ready(function(){
 		$(".portfolio-card").css("height",$("#limelight-card").css("height"));
 	});
 
+	$(window).resize();
+
 	$('.card').hover(
 		function(){
 			$(this).children().children('.activator').click();
