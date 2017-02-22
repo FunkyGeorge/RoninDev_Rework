@@ -28,6 +28,11 @@ nav {
 	margin-bottom: 2em;
 }
 
+body {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
 .black-text {
 	color: black;
 }
