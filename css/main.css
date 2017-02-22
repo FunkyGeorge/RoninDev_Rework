@@ -1,18 +1,7 @@
-@font-face {
-	font-family: Trivial;
-	src: url(../fonts/trivial-rescue/Trivial-Regular.otf);
-}
-
-@font-face {
-	font-family: Lato;
-	src: url(../fonts/Lato2OFL/Lato-Regular.ttf);
-}
-
 html {
 	color: white;
 	margin: 0px;
 	padding: 0px;
-	font-family: Lato;
 	background: url(../img/Archive/third.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
