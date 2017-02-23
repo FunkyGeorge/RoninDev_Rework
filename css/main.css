@@ -10,8 +10,6 @@ html {
 }
 
 
-}
-
 nav {
 	height: 10%;
 	margin-bottom: 2em;
@@ -25,6 +23,12 @@ body {
 .page-size {
 	height: 90vh;
 	padding-top: 40vh;
+}
+
+.title-border {
+	border: 4px solid white;
+	border-radius: 3px;
+	padding: 10px 20px;
 }
 
 .black-text {
