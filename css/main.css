@@ -22,6 +22,11 @@ body {
 	border-radius: 4px;
 }
 
+.page-size {
+	height: 90vh;
+	padding-top: 40vh;
+}
+
 .black-text {
 	color: black;
 }
@@ -40,13 +45,6 @@ body {
 
 .non-transparent{
 	opacity: 1.0;
-}
-
-#Intro {
-	margin: 3em;
-	background-color: rgba(0,0,0, 0.2);
-	padding: 10px;
-	border-radius: 3px;
 }
 
 #Copy {
