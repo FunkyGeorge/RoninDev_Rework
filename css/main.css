@@ -20,6 +20,14 @@ body {
 	border-radius: 4px;
 }
 
+.scroller {
+	scroll-snap-type: mandatory;
+
+  /* older spec implementation */
+  scroll-snap-destination: 50% 5-%;
+  scroll-snap-points-y: repeat(50%);
+}
+
 .page-size {
 	height: 90vh;
 	padding-top: 40vh;
