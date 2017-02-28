@@ -20,23 +20,15 @@ body {
 	border-radius: 4px;
 }
 
-.scroller {
-	scroll-snap-type: mandatory;
-
-  /* older spec implementation */
-  scroll-snap-destination: 50% 5-%;
-  scroll-snap-points-y: repeat(50%);
-}
-
 .page-size {
-	height: 90vh;
-	padding-top: 40vh;
+	height: 40vh;
 }
 
 .title-border {
 	border: 4px solid white;
 	border-radius: 3px;
 	padding: 10px 20px;
+	margin: 20% 30% 0 30%;
 }
 
 .black-text {
@@ -84,6 +76,13 @@ body {
 	display: inline;
 }
 
+
+/*Scroll Adjusts*/
+#ronindev_index {
+	padding-top:40em;
+	margin-top:-40em;
+}
+
 .follow-adjust {
 	font-size: 24px;
 	position: relative;
@@ -94,19 +93,6 @@ body {
 	width: 2em;
 	height: auto;
 	border: 4px solid black;
-}
-
-.college {
-	width: 5em;
-}
-
-#modestojc-box{
-	width: 9em;
-}
-
-.college-box {
-	display: block;
-	min-height: 4.5em;
 }
 
 .spacer {
@@ -122,26 +108,6 @@ body {
 .navbar-item {
 	display: inline-block;
 	padding: 10px 5px 0px 5px;
-}
-
-.tech-column {
-	text-align: center;
-	padding-bottom: 2em;
-	margin-bottom: 2em;
-}
-
-.tech-logo {
-	vertical-align: middle;
-	max-width: 18em;
-}
-
-.tech-logo2 {
-	vertical-align: middle;
-	max-width: 10em;
-}
-
-.Trivial{
-	font-family: Trivial;
 }
 
 .portfolio-card{

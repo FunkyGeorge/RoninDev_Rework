@@ -4858,7 +4858,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f44336;
+  background-color: #202020;
   will-change: left, right;
 }
 
